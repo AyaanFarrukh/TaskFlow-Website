@@ -9,3 +9,11 @@
     mix-blend-mode: overlay;
     transition: opacity 0.2s ease;
   }
+
+
+  @media screen and (max-width: 1000px) {
+    .cursor-light {
+      display: none;
+      visibility: hidden;
+    }
+  }
