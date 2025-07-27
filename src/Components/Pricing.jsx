@@ -13,7 +13,7 @@ const Pricing = () => {
         <p>Explore the powerful set of features that make Taskflow an essential tool for boosting productivity, staying organized, and managing tasks effortlessly — all in one seamless experience.</p>
        </div>
        <div className="pricing-cards-area">
-
+          
           <div className="pricing-card scroll-fade-up">
             <div className="card-header">
                 <h2><i class="fas fa-user"></i> Basic Plan</h2>
@@ -29,7 +29,7 @@ const Pricing = () => {
                 <button>Buy Now</button>
             </div>
           </div>
-
+           
           <div className="pricing-card scroll-fade-up">
             <div className="card-header">
                 <h2><i class="fas fa-user-check"></i> Standard Plan</h2>

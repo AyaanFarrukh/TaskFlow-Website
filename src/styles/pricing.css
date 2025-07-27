@@ -53,9 +53,12 @@
     backdrop-filter: blur(4px);
     background: linear-gradient(135deg, #1f1f2e, #2a2a3d);
     box-shadow: 0 4px 30px rgba(115, 80, 177, 0.15);
-    transition: transform 0.3s ease,box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
 }
-.pricing-card:hover {
+.pr-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+.pricing-card:hover,.pr-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 40px rgba(124, 58, 237, 0.4);
     border: 1px solid rgba(124, 58, 237, 0.4);
