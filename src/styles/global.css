@@ -1,0 +1,45 @@
+:root {
+    --primary: #7C3AED;
+    --gray: #6B7280;
+    --bg: #F9FAFB;
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+html,body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  background: radial-gradient(ellipse at top left, #121212, #0d0d0d); 
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    color: var(--primary);
+    font-family: "Inter";
+  }
+  .scroll-fade-up {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .scroll-fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
